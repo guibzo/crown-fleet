@@ -1,3 +1,4 @@
+import { ThemedStatusBar } from '@/components/themed-status-bar'
 import { useColorScheme } from '@/hooks/use-color-scheme'
 import { NAV_THEME } from '@/styles/constants'
 import '@/styles/global.css'
@@ -91,6 +92,8 @@ export default function Layout() {
   return (
     <SafeAreaProvider>
       <ThemeProvider value={isDarkColorScheme ? DARK_THEME : LIGHT_THEME}>
+        <ThemedStatusBar translucent />
+
         <Router />
 
         {/* <PortalHost /> */}
