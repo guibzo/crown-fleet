@@ -16,6 +16,17 @@
       ]
     ],
     "name": "crown-fleet",
-    "slug": "crown-fleet"
+    "slug": "crown-fleet",
+    "android": {
+      "package": "com.guilhermeviana.crown_fleet"
+    },
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "e09ef134-c35f-444e-8773-e6fff59609c9"
+      }
+    }
   }
 }
